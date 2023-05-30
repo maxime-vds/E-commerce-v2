@@ -1,5 +1,5 @@
 // import React, { useEffect, useContext } from "react";
-// import "./Home.scss";
+import "./Home.scss";
 // import Banner from "./Banner/Banner";
 // import Category from "./Category/Category";
 // import Products from "../Products/Products";
@@ -38,7 +38,7 @@ const Home = () => {
         //         </div>
         //     </div>
         // </div>
-        <div>HomePage</div>
+        <div className="home">HomePage</div>
     );
 };
 
