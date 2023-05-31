@@ -30,6 +30,7 @@
             }
 
             .category-text {
+                // display: none;
                 color: white;
                 position: absolute;
                 top: 50%;
@@ -55,6 +56,9 @@
                 img {
                     transform: scale(1.2);
                 }
+                // .category-text{
+                //     display: block;  // pour faire en sorte d'apparaitre le texte au passage de la souris
+                // }
             }
         }
     }

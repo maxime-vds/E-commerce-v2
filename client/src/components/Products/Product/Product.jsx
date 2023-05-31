@@ -1,6 +1,6 @@
 // import React from "react";
 // import { useNavigate } from "react-router-dom";
-// import "./Product.scss";
+ import "./Product.scss";
 
 // const Product = ({ data, id }) => {
 //     const navigate = useNavigate();
@@ -27,12 +27,22 @@
 // };
 
 // export default Product;
-import test from "../../../assets/test1.jpg"
+import test from "../../../assets/rr.png"
 const Product = () => {
     return ( 
         <>
-       <img src={test} alt="" style ={{width:290, height:210}}/>
-        <div>Product</div>
+       {/* <img src={test} alt="" style ={{width:290, height:210}}/> */}
+        <div className="product-card">
+            <div className="thumbnail">
+                <img src={test} alt="product" />
+                
+            </div>
+            
+                <div className="prod-details">
+                    <span className="name">Product name</span>
+                    <span className="price"> 499&#8364;</span>
+                </div>
+        </div>
         </> 
     );
 }
