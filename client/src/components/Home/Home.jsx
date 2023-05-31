@@ -2,7 +2,8 @@
 import Banner from "./Banner/Banner";
 import "./Home.scss";
 // import Banner from "./Banner/Banner";
-// import Category from "./Category/Category";
+ import Category from "./Category/Category";
+import Products from "../Products/Products";
 // import Products from "../Products/Products";
 // import { fetchDataFromApi } from "../../utils/api";
 // import { Context } from "../../utils/context";
@@ -39,7 +40,17 @@ const Home = () => {
         //         </div>
         //     </div>
         // </div>
-        <div className="home"><Banner/></div>
+     
+        <div className="home">
+            <Banner/>
+            <div className="main-content">
+                <div className="layout">
+                <Category />
+                <Products/>
+                </div>
+            </div>
+        </div>
+         
     );
 };
 
