@@ -30,6 +30,7 @@
         @include md {
             width: 340px;
         }
+        
         .cart-header {
             display: flex;
             align-items: center;
@@ -71,8 +72,8 @@
                 font-size: 120px;
                 opacity: 0.1;
             }
-            span {
-            }
+            // span {
+            // }
             .return-cta {
                 outline: 0;
                 border: 0;
