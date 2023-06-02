@@ -70,7 +70,7 @@
             margin-top: 100px;
             svg {
                 font-size: 120px;
-                opacity: 0.1;
+                opacity: 0.2;
             }
             // span {
             // }
@@ -83,12 +83,16 @@
                 align-items: center;
                 justify-content: center;
                 cursor: pointer;
-                font-size: 13px;
+                font-size: 17px;
                 color: white;
-                background: #8e2de2;
-                border-bottom: 3px solid #6516aa;
-                svg {
-                    margin-right: 10px;
+                background: #2ddce2;
+                border-bottom: 3px solid #2ddce2;
+                // border-radius: 3px;
+                // svg {
+                //     margin-right: 10px;
+                // }
+                &:hover{
+                    opacity: 0.7;
                 }
             }
         }
@@ -106,7 +110,7 @@
                     font-weight: 700;
                     text-transform: uppercase;
                     &.total {
-                        color: #8e2de2;
+                        color: #2ddce2;
                     }
                 }
             }
@@ -123,8 +127,9 @@
                     cursor: pointer;
                     font-size: 16px;
                     color: white;
-                    background: #8e2de2;
-                    border-bottom: 3px solid #6516aa;
+                    background: #2ddce2;
+                    // border-radius: 4px;
+                    border-bottom: 3px solid #2ddce2;
                     text-transform: uppercase;
                     svg {
                         margin-right: 10px;
