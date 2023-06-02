@@ -84,9 +84,9 @@ const CartItem = () => {
               <span>+</span>
             </div>
             <div className="text">
-              <span>3</span>
-              <span>x</span>
-              <span className="highlight">499&#8364;</span>
+              <span> 3</span>
+              <span> x</span>
+              <span className="highlight"> 499&#8364;</span>
             </div>
           </div>
         </div>
