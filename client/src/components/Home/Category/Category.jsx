@@ -40,7 +40,7 @@ return (
       <div className="category">
         <div className="category-image">
         <img src={cat1} alt="products" /> 
-        <p className="category-text">headphone</p>
+        <p className="category-text">Headphones</p>
         </div>       
       </div>
       <div className="category">
