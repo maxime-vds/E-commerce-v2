@@ -28,21 +28,25 @@
 
 import axios from "axios";
 
-const params = {
-  headers: {
-    Authorization: "bearer" + process.env.REACT_APP_STRIPE_APP_KEY,
-  },
-};
+// const params = {
+//   headers: {
+//     Authorization: "bearer" + process.env.REACT_APP_STRIPE_APP_KEY,
+//   },
+// };
 
 export const fetchDataFromApi = async (url) => {
+  
   try {
     const data = await axios.get(
       process.env.REACT_APP_DEV_URL + url,
-      params
+      {headers: {
+        Authorization: "bearer" + process.env.REACT_APP_STRIPE_APP_KEY,
+      },}
     );
-    return data;
+    // return data;
+    console.log(data);
   } catch (error) {
-    console.log(error);
-    return error;
+    // console.log(error);
+    // return error;
   }
 };
