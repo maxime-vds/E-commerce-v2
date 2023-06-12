@@ -68,8 +68,13 @@ const Home = () => {
 
      useEffect (()=>{
         getCategories ()
+        getProducts();
      }, []);
 
+     const getProducts =()=> {
+        FetchDataFromApi ("/api/products").then(res=> console.log (res));
+     }
+     
      const getCategories = () => {
          FetchDataFromApi("/api/categories").then(res => console.log(res));
      };
