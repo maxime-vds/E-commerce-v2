@@ -26,8 +26,12 @@
 
 import "./Category.scss";
 import Products from "../Products/Products";
+import useFetch from "../../hooks/useFetch";
+import { useParams } from "react-router-dom";
 
 const Category  = () => {
+    const { id } = useParams();
+    //const {data}= fe
     return ( 
         <div className="category-main-content">
             <div className="layout">
