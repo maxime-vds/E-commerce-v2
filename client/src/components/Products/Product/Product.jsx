@@ -27,14 +27,18 @@
 // };
 
 // export default Product;
-import test from "../../../assets/rr.png"
+
+
+import { useNavigate } from "react-router-dom";
+
 const Product = ({id,data}) => {
+    const navigate= useNavigate();
     return ( 
         <>
-       {/* <img src={test} alt="" style ={{width:290, height:210}}/> */}
-        <div className="product-card">
+       
+        <div className="product-card"  onClick={() => navigate("/product/" + id)}>
             <div className="thumbnail">
-                <img src={process.env.REACT_APP_DEV_URL + data.img.data[0].attributes.url} alt="product" />
+                <img src={process.env.REACT_APP_DEV_URL + data?.img?.data[0].attributes.url} alt="product" />
                 
             </div>
             
