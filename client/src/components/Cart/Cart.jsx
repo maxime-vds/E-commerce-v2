@@ -92,9 +92,30 @@ import CartItem from "./CartItem/CartItem";
 import { useContext } from "react";
 import { Context } from "../../utils/context";
 
+import {loadStripe} from "@stripe/stripe-js"
+import { makePaymentRequest } from "../../utils/api";
+
 const Cart = ({setShowCart}) => {
 
 const {cartItems,cartSubTotal} = useContext(Context);
+const stripePromise= loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
+
+const handlePayment = async () => {
+  try{
+    const stripe = await stripePromise;
+    const res = await makePaymentRequest.post("api/orders", {
+      products: cartItems,
+    })
+    await stripe.redirectToCheckout({
+      sessionId: res.data.stripeSession.id,
+    });
+
+  } catch (error){
+    console.log(error);
+  }
+
+ 
+}; 
     
     return (
       <div className="cart-panel">
@@ -126,7 +147,7 @@ const {cartItems,cartSubTotal} = useContext(Context);
               <span className="text total">{cartSubTotal} &#8364;</span>
             </div>
             <div className="button">
-              <button className="checkout-cta">Checkout</button>
+              <button className="checkout-cta" onClick={handlePayment}>Checkout</button>
             </div>
           </div>
           

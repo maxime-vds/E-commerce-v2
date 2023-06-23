@@ -1,6 +1,6 @@
 import "./CartItem.scss";
 import { MdClose } from "react-icons/md";
-import test from "../../../assets/cc.png"
+// import test from "../../../assets/cc.png"
 import { Context } from "../../../utils/context";
 import { useContext } from "react";
 
