@@ -62,7 +62,7 @@ Open your browser and visit http://localhost:3000 to access the application.
   - `/components`: Reusable React components.
   - `/pages`: Individual page components.
   - `/styles`: SCSS/Sass stylesheets.
-- `/backend`: Contains Strapi backend code in a folder named `api`.
+- `/backend`: Contains Strapi backend code.
 
 ## Usage
 
