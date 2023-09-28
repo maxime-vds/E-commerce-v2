@@ -14,8 +14,8 @@
 ---
 ## Overview
 
-- This repository contains an E-Commerce project built with ReactJS for the frontend and Strapi for the backend. It allows users to browse and purchase items, add them to a cart, and complete the checkout process.
-- This project are responsive
+-This repository contains an E-Commerce project built with ReactJS for the frontend and Strapi for the backend. It allows users to browse and purchase items, add them to a cart, and complete the checkout process.
+-This project are responsive
 
 **Screenshots:** 
 
