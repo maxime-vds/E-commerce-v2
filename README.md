@@ -1,6 +1,6 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Images](link-to-your-project-image.png) comoing soon 
+![Project Images](link-to-your-project-image.png) comming soon 
 
 ## Table of Contents
 - [Overview](#overview)
