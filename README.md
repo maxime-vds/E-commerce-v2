@@ -1,6 +1,6 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Image](E-commerce v2-img/1.png) 
+![Project Image]([E-commerce v2-img/1.png](https://github.com/maxime-vds/E-commerce-v2/blob/main/E-commerce%20v2-img/1.png)) 
 
 ## Table of Contents
 
