@@ -1,6 +1,6 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Image](e-commerce-v2/Screenshot from 2023-09-28 11-53-44.png) 
+![Project Images](Rabdom-Joke-img/1-joke.png)  
 
 ## Table of Contents
 
