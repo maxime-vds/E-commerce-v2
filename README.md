@@ -1,8 +1,9 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Images](link-to-your-project-image.png) comming soon 
+![Project Images](E-commerce v2-img/1.png) 
 
 ## Table of Contents
+
 - [Overview](#overview)
 - [Features](#features)
 - [Prerequisites](#prerequisites)
@@ -12,15 +13,20 @@
 - [License](#license)
 
 ---
+
 ## Overview
 
 This repository contains an E-Commerce project built with ReactJS for the frontend and Strapi for the backend. It allows users to browse and purchase items, add them to a cart, and complete the checkout process.
   
 This project is responsive
 
-**Screenshots:** 
+**Screenshots: (more img inside the folder e-commerce-v2)** 
+
+![Project Images](E-commerce v2-img/2.png) 
+![Project Images](E-commerce v2-img/3.png) 
 
 ---
+
 ## Features
 
 - Browse and search for items
@@ -30,6 +36,7 @@ This project is responsive
 - Admin panel for managing products, orders, and users
 
 ---
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -39,6 +46,7 @@ Before you begin, ensure you have met the following requirements:
 - Clone this repository to your local machine.
 
 ---
+
 ## Getting Started
 
 Follow these steps to get your project up and running:
@@ -56,6 +64,7 @@ If you're using Strapi for the backend, make sure it's up and running. Refer to 
 Open your browser and visit http://localhost:3000 to access the application.
 
 ---
+
 ## Project structure 
 
 - `/src`: Contains the source code for the ReactJS frontend.
@@ -64,9 +73,13 @@ Open your browser and visit http://localhost:3000 to access the application.
   - `/styles`: SCSS/Sass stylesheets.
 - `/backend`: Contains Strapi backend code.
 
+---
+
 ## Usage
 
 If you want to use the Strapi backend, you'll need to create your own administration and data.
+
+---
 
 ## License
 
