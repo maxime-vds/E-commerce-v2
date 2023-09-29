@@ -1,6 +1,6 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Images](E-commerce-img/1.png)  
+![Project Images](e-commerce-v2/Screenshot from 2023-09-28 11-53-44.png)  
 
 ## Table of Contents
 
@@ -22,8 +22,9 @@ This project is responsive
 
 **Screenshots: (more img inside the folder e-commerce-v2)** 
 
-![Project Images](E-commerce v2-img/2.png) 
-![Project Images](E-commerce v2-img/3.png) 
+![Project Images](E-commerce-img/1.png) 
+![Project Images](E-commerce-img/2.png) 
+![Project Images](E-commerce-img/3.png) 
 
 ---
 
