@@ -45,7 +45,7 @@ Before you begin, ensure you have met the following requirements:
 - Node.js and npm installed on your development environment.
 - Strapi installed and configured for the backend.
 - Clone this repository to your local machine.
-
+-If you want to use the Strapi backend, you'll need to create your own administration and data.
 ---
 
 ## Getting Started
@@ -78,7 +78,11 @@ Open your browser and visit http://localhost:3000 to access the application.
 
 ## Usage
 
-If you want to use the Strapi backend, you'll need to create your own administration and data.
+- Browsing Products: Browse through the available products by navigating different categories and using the search functionality.
+- Adding Items to Cart: Click on a product to view details and add it to your shopping cart.
+- Managing Cart: Access your shopping cart to view, edit, or remove items before proceeding to checkout.
+- Checkout Process: Complete the checkout process, providing shipping and payment information as required.
+
 
 ---
 
