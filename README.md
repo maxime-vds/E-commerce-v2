@@ -1,6 +1,6 @@
 # E-commerce-v2 Project with ReactJS and Strapi
 
-![Project Images](E-commerce v2-img/1.png) 
+![Project Images](1.png) 
 
 ## Table of Contents
 
